@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-locationlab-dev-211249-authRole",
+      "UnauthRoleArn": "arn:aws:iam::489079785589:role/amplify-locationlab-dev-211249-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::489079785589:role/amplify-locationlab-dev-211249-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-locationlab-dev-211249-deployment",
+      "UnauthRoleName": "amplify-locationlab-dev-211249-unauthRole",
+      "StackName": "amplify-locationlab-dev-211249",
+      "StackId": "arn:aws:cloudformation:us-west-2:489079785589:stack/amplify-locationlab-dev-211249/bc0b59c0-80e5-11ed-8983-022878d7b30f",
+      "AmplifyAppId": "d10ok5l48vyln5"
+    },
+    "categories": {
+      "auth": {
+        "locationlab": {}
+      },
+      "analytics": {
+        "locationlab": {}
+      }
+    }
+  }
+}

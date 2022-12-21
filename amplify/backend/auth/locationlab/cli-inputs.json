@@ -1,0 +1,12 @@
+{
+  "version": "1",
+  "cognitoConfig": {
+    "identityPoolName": "locationlab_identitypool_c7b8d38c",
+    "allowUnauthenticatedIdentities": true,
+    "authSelections": "identityPoolOnly",
+    "resourceName": "locationlab",
+    "sharedId": "c7b8d38c",
+    "serviceName": "Cognito",
+    "useDefault": "manual"
+  }
+}

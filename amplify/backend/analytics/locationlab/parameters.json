@@ -1,0 +1,21 @@
+{
+    "appName": "locationlab",
+    "roleName": "pinpointLambdaRole8b946575",
+    "cloudformationPolicyName": "cloudformationPolicy8b946575",
+    "cloudWatchPolicyName": "cloudWatchPolicy8b946575",
+    "pinpointPolicyName": "pinpointPolicy8b946575",
+    "authPolicyName": "pinpoint_amplify_8b946575",
+    "unauthPolicyName": "pinpoint_amplify_8b946575",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}
